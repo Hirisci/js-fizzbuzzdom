@@ -59,9 +59,10 @@ body{
 h1{
     color: var(--clr-secondary-0);
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
     padding: var(--gutter-md);
     font-weight: 700;
+    margin-bottom:var(--gutter-xl) ;
 
 }
 
@@ -71,11 +72,11 @@ h1{
   ╚═══════════════╝*/
 
 .container{
-    height: 85vh;
-    width: 85vh;
+    height: 84vh;
+    width: 84vh;
     margin: auto;
     display: grid;
-    gap: var(--gutter-md);
+    gap: var(--gutter-sm);
     text-align: center;
     grid-template-columns: repeat(10, 1fr);
 }
