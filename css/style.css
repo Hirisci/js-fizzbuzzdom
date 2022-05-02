@@ -71,10 +71,9 @@ h1{
   ╚═══════════════╝*/
 
 .container{
-    height: 80vh;
-    width: 80vh;
+    height: 85vh;
+    width: 85vh;
     margin: auto;
-    background-color: wheat;
     display: grid;
     gap: var(--gutter-md);
     text-align: center;
@@ -87,7 +86,7 @@ h1{
     align-items: center;
     background-color: var(--clr-bg-1);
     position: relative;
-
+    aspect-ratio: 1/1;
 }
 
 .fizz::after{
